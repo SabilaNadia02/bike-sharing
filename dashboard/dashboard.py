@@ -96,7 +96,7 @@ with col2:
     
 with col3:
     total_count = daily_rent_df.total_count.sum()
-    st.metric("Total Registered", value=total_count)
+    st.metric("Total Count", value=total_count)
 
 # Jumlah sewa sepeda per bulan
 def main():
